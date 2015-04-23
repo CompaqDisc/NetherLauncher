@@ -1,10 +1,7 @@
 package com.herobrine2nether.netherLauncher;
 
-import javax.imageio.ImageIO;
-import javax.imageio.stream.ImageInputStream;
 import javax.swing.*;
 import java.awt.*;
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -30,6 +27,9 @@ public class Main {
         }
         java.awt.Image icon = java.awt.Toolkit.getDefaultToolkit().getDefaultToolkit().createImage(iconUrl);
         window.setIconImage(icon);
+
+        Dimension size = new Dimension(600, 400);
+        window.getContentPane().setPreferredSize(size);
 
         JLabel label = new JLabel("NetherLauncher " + Constants.VERSION + " is starting up...");
         window.getContentPane().add(label);
