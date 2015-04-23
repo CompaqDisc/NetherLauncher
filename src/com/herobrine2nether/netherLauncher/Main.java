@@ -28,7 +28,7 @@ public class Main {
         java.awt.Image icon = java.awt.Toolkit.getDefaultToolkit().getDefaultToolkit().createImage(iconUrl);
         window.setIconImage(icon);
 
-        Dimension size = new Dimension(600, 400);
+        Dimension size = new Dimension(576, 192);
         window.getContentPane().setPreferredSize(size);
 
         JLabel label = new JLabel("NetherLauncher " + Constants.VERSION + " is starting up...");
