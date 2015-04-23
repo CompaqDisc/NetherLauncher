@@ -20,6 +20,11 @@ public class Splash {
         Dimension size = new Dimension(Constants.SPLASH_WIDTH, Constants.SPLASH_HEIGHT);
         window.getContentPane().setPreferredSize(size);
 
+        Dimension screenSize = new Dimension(Toolkit.getDefaultToolkit().getScreenSize());
+        int screenWidth = screenSize.width;
+        int screenHeight = screenSize.height;
+        window.setLocation(screenWidth/2, screenHeight/2);
+
         URL iconUrl = null;
         try {
             iconUrl = new URL(Constants.APP_ICON_URL);
