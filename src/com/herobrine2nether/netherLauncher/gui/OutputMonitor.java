@@ -8,7 +8,7 @@ import java.io.IOError;
 import java.io.IOException;
 
 public class OutputMonitor {
-    static File assetsDir = new File("/.NetherLauncher");
+    static File assetsDir = new File("./.NetherLauncher");
     public static void Console() {
         if (!assetsDir.exists()) {
             initialSetup();
