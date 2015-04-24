@@ -11,6 +11,11 @@ public class Main {
                 Splash.splashScreen();
             }
         });
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
 

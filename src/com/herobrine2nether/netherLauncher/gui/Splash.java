@@ -23,7 +23,9 @@ public class Splash {
         Dimension screenSize = new Dimension(Toolkit.getDefaultToolkit().getScreenSize());
         int screenWidth = screenSize.width;
         int screenHeight = screenSize.height;
-        window.setLocation(screenWidth/2, screenHeight/2);
+        int splashX = (screenWidth / 2) - (Constants.SPLASH_WIDTH / 2);
+        int splashY = (screenHeight/ 2) - (Constants.SPLASH_HEIGHT / 2);
+        window.setLocation(splashX, splashY);
 
         URL iconUrl = null;
         try {
