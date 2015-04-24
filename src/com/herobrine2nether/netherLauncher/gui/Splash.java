@@ -49,5 +49,6 @@ public class Splash {
 
         window.pack();
         window.setVisible(true);
+
     }
 }

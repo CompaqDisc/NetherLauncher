@@ -3,10 +3,8 @@ package com.herobrine2nether.netherLauncher.gui;
 import com.herobrine2nether.netherLauncher.osSpecific.FileSystem;
 
 import java.io.File;
+import java.io.IOError;
 
-/**
- * Created by Owner on 4/23/2015.
- */
 public class OutputMonitor {
     static File assetsDir = new File(FileSystem.osSlash() + ".NetherLauncher");
     public static void Console() {
@@ -18,7 +16,11 @@ public class OutputMonitor {
     }
 
     public static void initialSetup() {
-        assetsDir.mkdirs();
+        try{
+            assetsDir.mkdirs();
+        } catch (IOError e) {
+            e.printStackTrace();
+        }
     }
 
     public static void loadAll() {

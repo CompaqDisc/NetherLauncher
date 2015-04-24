@@ -10,9 +10,10 @@ public class Main {
 
             public void run() {
                 Splash.splashScreen();
+                OutputMonitor.Console();
             }
         });
-        OutputMonitor.Console();
+
     }
 
 
