@@ -1,7 +1,7 @@
 package com.herobrine2nether.netherLauncher;
 
-import com.herobrine2nether.netherLauncher.gui.OutputMonitor;
-import com.herobrine2nether.netherLauncher.gui.Splash;
+import com.herobrine2nether.netherLauncher.fileInterfaces.FileSetup;
+import com.herobrine2nether.netherLauncher.ui.Splash;
 
 public class Main {
 
@@ -10,7 +10,7 @@ public class Main {
 
             public void run() {
                 Splash.splashScreen();
-                OutputMonitor.Console();
+                FileSetup.Check();
             }
         });
 
