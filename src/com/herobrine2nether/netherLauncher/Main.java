@@ -1,5 +1,6 @@
 package com.herobrine2nether.netherLauncher;
 
+import com.herobrine2nether.netherLauncher.gui.OutputMonitor;
 import com.herobrine2nether.netherLauncher.gui.Splash;
 
 public class Main {
@@ -11,11 +12,7 @@ public class Main {
                 Splash.splashScreen();
             }
         });
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        OutputMonitor.Console();
     }
 
 
