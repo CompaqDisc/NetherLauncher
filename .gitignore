@@ -1,3 +1,7 @@
 # Directories to ignore.
 .idea/
 out/
+.NetherLauncher/
+
+# Files to ignore
+NetherLauncher.iml
