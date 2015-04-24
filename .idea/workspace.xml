@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f95de31-6116-49f5-ab58-41045487ceb4" name="Default" comment="Update Window Size&#10;Begin Output Console">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/herobrine2nether/netherLauncher/osSpecific/FileSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/herobrine2nether/netherLauncher/netFiles/InitialSetupFiles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/herobrine2nether/netherLauncher/Main.java" afterPath="$PROJECT_DIR$/src/com/herobrine2nether/netherLauncher/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/herobrine2nether/netherLauncher/gui/OutputMonitor.java" afterPath="$PROJECT_DIR$/src/com/herobrine2nether/netherLauncher/gui/OutputMonitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="5f95de31-6116-49f5-ab58-41045487ceb4" name="Default" comment="Update Window Size&#10;Begin Output Console" />
     <ignored path="NetherLauncher.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -68,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/herobrine2nether/netherLauncher/osSpecific/FileSystem.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.41195476">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -175,6 +169,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="NetherLauncher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NetherLauncher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NetherLauncher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -613,7 +621,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/herobrine2nether/netherLauncher/osSpecific/FileSystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41195476">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
