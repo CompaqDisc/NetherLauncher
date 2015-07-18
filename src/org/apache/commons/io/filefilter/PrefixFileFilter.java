@@ -32,7 +32,7 @@ import org.apache.commons.io.IOCase;
  * File dir = new File(".");
  * String[] files = dir.list( new PrefixFileFilter("Test") );
  * for ( int i = 0; i &lt; files.length; i++ ) {
- *     System.out.println(files[i]);
+ *     Sys.out.println(files[i]);
  * }
  * </pre>
  *

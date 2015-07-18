@@ -32,10 +32,10 @@ import org.apache.commons.io.FileUtils;
  * <pre>
  * File dir = new File(".");
  * // We are interested in files older than one day
- * long cutoff = System.currentTimeMillis() - (24 * 60 * 60 * 1000);
+ * long cutoff = Sys.currentTimeMillis() - (24 * 60 * 60 * 1000);
  * String[] files = dir.list( new AgeFileFilter(cutoff) );
  * for ( int i = 0; i &lt; files.length; i++ ) {
- *     System.out.println(files[i]);
+ *     Sys.out.println(files[i]);
  * }
  * </pre>
  *

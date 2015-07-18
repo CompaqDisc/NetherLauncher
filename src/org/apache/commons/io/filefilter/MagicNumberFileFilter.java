@@ -39,7 +39,7 @@ import org.apache.commons.io.IOUtils;
  *       (byte) 0xBA, (byte) 0xBE}); 
  * String[] javaClassFiles = dir.list(javaClassFileFilter);
  * for (String javaClassFile : javaClassFiles) {
- *     System.out.println(javaClassFile);
+ *     Sys.out.println(javaClassFile);
  * }
  * </pre></code>
  * 
@@ -55,7 +55,7 @@ import org.apache.commons.io.IOUtils;
  *     MagicNumberFileFilter("ustar", 257); 
  * String[] tarFiles = dir.list(tarFileFilter);
  * for (String tarFile : tarFiles) {
- *     System.out.println(tarFile);
+ *     Sys.out.println(tarFile);
  * }
  * </pre></code>
  * @since 2.0

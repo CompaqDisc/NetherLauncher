@@ -30,7 +30,7 @@ import java.io.Serializable;
  * File dir = new File(".");
  * String[] files = dir.list( new SizeFileFilter(1024 * 1024) );
  * for ( int i = 0; i &lt; files.length; i++ ) {
- *     System.out.println(files[i]);
+ *     Sys.out.println(files[i]);
  * }
  * </pre>
  *

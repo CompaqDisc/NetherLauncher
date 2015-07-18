@@ -38,7 +38,7 @@ import org.apache.commons.io.IOUtils;
  * <pre>
  *  public class MyTailerListener extends TailerListenerAdapter {
  *      public void handle(String line) {
- *          System.out.println(line);
+ *          Sys.out.println(line);
  *      }
  *  }
  * </pre>

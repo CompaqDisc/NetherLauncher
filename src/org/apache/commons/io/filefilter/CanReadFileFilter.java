@@ -29,7 +29,7 @@ import java.io.Serializable;
  * File dir = new File(".");
  * String[] files = dir.list( CanReadFileFilter.CAN_READ );
  * for ( int i = 0; i &lt; files.length; i++ ) {
- *     System.out.println(files[i]);
+ *     Sys.out.println(files[i]);
  * }
  * </pre>
  *
@@ -41,7 +41,7 @@ import java.io.Serializable;
  * File dir = new File(".");
  * String[] files = dir.list( CanReadFileFilter.CANNOT_READ );
  * for ( int i = 0; i &lt; files.length; i++ ) {
- *     System.out.println(files[i]);
+ *     Sys.out.println(files[i]);
  * }
  * </pre>
  *
@@ -53,7 +53,7 @@ import java.io.Serializable;
  * File dir = new File(".");
  * String[] files = dir.list( CanReadFileFilter.READ_ONLY );
  * for ( int i = 0; i &lt; files.length; i++ ) {
- *     System.out.println(files[i]);
+ *     Sys.out.println(files[i]);
  * }
  * </pre>
  *
