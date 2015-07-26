@@ -29,7 +29,7 @@ import java.util.Locale;
 import java.util.StringTokenizer;
 
 /**
- * General File Sys utilities.
+ * General File System utilities.
  * <p>
  * This class provides static utility methods for general file system
  * functions not provided via the JDK {@link java.io.File File} class.

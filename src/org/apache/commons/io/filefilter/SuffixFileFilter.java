@@ -33,7 +33,7 @@ import org.apache.commons.io.IOCase;
  * File dir = new File(".");
  * String[] files = dir.list( new SuffixFileFilter(".java") );
  * for (int i = 0; i &lt; files.length; i++) {
- *     Sys.out.println(files[i]);
+ *     System.out.println(files[i]);
  * }
  * </pre>
  *

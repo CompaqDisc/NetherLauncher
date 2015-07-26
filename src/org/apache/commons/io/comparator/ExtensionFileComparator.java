@@ -67,7 +67,7 @@ public class ExtensionFileComparator extends AbstractFileComparator implements S
     public static final Comparator<File> EXTENSION_INSENSITIVE_REVERSE
                                                 = new ReverseComparator(EXTENSION_INSENSITIVE_COMPARATOR);
 
-    /** Sys sensitive extension comparator instance (see {@link IOCase#SYSTEM}) */
+    /** System sensitive extension comparator instance (see {@link IOCase#SYSTEM}) */
     public static final Comparator<File> EXTENSION_SYSTEM_COMPARATOR = new ExtensionFileComparator(IOCase.SYSTEM);
 
     /** Reverse system sensitive path comparator instance (see {@link IOCase#SYSTEM}) */

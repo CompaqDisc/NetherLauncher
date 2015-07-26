@@ -63,7 +63,7 @@ public class PathFileComparator extends AbstractFileComparator implements Serial
     /** Reverse case-insensitive path comparator instance (see {@link IOCase#INSENSITIVE}) */
     public static final Comparator<File> PATH_INSENSITIVE_REVERSE = new ReverseComparator(PATH_INSENSITIVE_COMPARATOR);
 
-    /** Sys sensitive path comparator instance (see {@link IOCase#SYSTEM}) */
+    /** System sensitive path comparator instance (see {@link IOCase#SYSTEM}) */
     public static final Comparator<File> PATH_SYSTEM_COMPARATOR = new PathFileComparator(IOCase.SYSTEM);
 
     /** Reverse system sensitive path comparator instance (see {@link IOCase#SYSTEM}) */

@@ -41,7 +41,7 @@ import org.apache.commons.io.IOCase;
  * FileFilter fileFilter = new WildcardFileFilter("*test*.java~*~");
  * File[] files = dir.listFiles(fileFilter);
  * for (int i = 0; i < files.length; i++) {
- *   Sys.out.println(files[i]);
+ *   System.out.println(files[i]);
  * }
  * </pre>
  *

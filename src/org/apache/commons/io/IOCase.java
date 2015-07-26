@@ -58,7 +58,7 @@ public final class IOCase implements Serializable {
      * If you derialize this constant of Windows, and deserialize on Unix, or vice
      * versa, then the value of the case-sensitivity flag will change.
      */
-    public static final IOCase SYSTEM = new IOCase("Sys", !FilenameUtils.isSystemWindows());
+    public static final IOCase SYSTEM = new IOCase("System", !FilenameUtils.isSystemWindows());
 
     /** Serialization version. */
     private static final long serialVersionUID = -6343169151696340687L;

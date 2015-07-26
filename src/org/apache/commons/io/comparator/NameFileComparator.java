@@ -63,7 +63,7 @@ public class NameFileComparator extends AbstractFileComparator implements Serial
     /** Reverse case-insensitive name comparator instance (see {@link IOCase#INSENSITIVE}) */
     public static final Comparator<File> NAME_INSENSITIVE_REVERSE = new ReverseComparator(NAME_INSENSITIVE_COMPARATOR);
 
-    /** Sys sensitive name comparator instance (see {@link IOCase#SYSTEM}) */
+    /** System sensitive name comparator instance (see {@link IOCase#SYSTEM}) */
     public static final Comparator<File> NAME_SYSTEM_COMPARATOR = new NameFileComparator(IOCase.SYSTEM);
 
     /** Reverse system sensitive name comparator instance (see {@link IOCase#SYSTEM}) */
