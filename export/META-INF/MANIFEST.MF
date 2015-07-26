@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: io.github.herobrine2nether.netherLauncher.Main
-SplashScreen-Image: io/github/herobrine2nether/netherLauncher/assets/Splash.png
-
