@@ -2,6 +2,7 @@ package io.github.herobrine2nether.netherLauncher.ui;
 
 import io.github.herobrine2nether.netherLauncher.Constants;
 import io.github.herobrine2nether.netherLauncher.Main;
+import io.github.herobrine2nether.netherLauncher.backend.Util.Sys;
 import io.github.herobrine2nether.netherLauncher.ui.tabs.NewsTab;
 
 import javax.swing.*;
@@ -42,7 +43,7 @@ public class MainWindow extends JFrame {
             }
         });
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(820, 500);
+        setSize(Sys.GetScreenWorkingWidth() / 2, Sys.GetScreenWorkingHeight() / 2);
         setLocationRelativeTo(null);
         setVisible(true);
     }

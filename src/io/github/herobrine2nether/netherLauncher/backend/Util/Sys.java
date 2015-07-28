@@ -42,4 +42,12 @@ public class Sys {
     public static String getOSVer() {
         return System.getProperty("os.version");
     }
+
+    public static int GetScreenWorkingWidth() {
+        return java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment().getMaximumWindowBounds().width;
+    }
+
+    public static int GetScreenWorkingHeight() {
+        return java.awt.GraphicsEnvironment.getLocalGraphicsEnvironment().getMaximumWindowBounds().height;
+    }
 }
