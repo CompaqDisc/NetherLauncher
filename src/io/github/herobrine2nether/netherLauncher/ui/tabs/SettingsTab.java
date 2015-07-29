@@ -1,12 +1,12 @@
 package io.github.herobrine2nether.netherLauncher.ui.tabs;
 
+import io.github.herobrine2nether.netherLauncher.ui.tabs.settings.JavaTab;
+
 import javax.swing.*;
 
 public class SettingsTab extends JTabbedPane {
     public SettingsTab() {
-        //addTab("News", null, NT, "Updates and Notifications");
-        //addTab("Settings", null, NT, "Launcher Global Settings");
-        //addTab("Versions", null, VersionsTabs, "Add new Profiles Here");
+        addTab("Java", null, JavaTab, "Tweak Java Settings and RAM");
         setTabPlacement(JTabbedPane.TOP);
     }
 }
