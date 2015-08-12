@@ -33,14 +33,17 @@ public class MainWindow extends JFrame {
 
             @Override
             public void componentMoved(ComponentEvent e) {
+                //NT.NewsFX();
             }
 
             @Override
             public void componentShown(ComponentEvent e) {
+                NT.NewsFX();
             }
 
             @Override
             public void componentHidden(ComponentEvent e) {
+                NT.NewsFX();
             }
         });
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

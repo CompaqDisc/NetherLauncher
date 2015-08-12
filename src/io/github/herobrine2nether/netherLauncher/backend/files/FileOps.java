@@ -3,6 +3,7 @@ package io.github.herobrine2nether.netherLauncher.backend.files;
 import io.github.herobrine2nether.netherLauncher.backend.Util.Logging;
 import org.apache.commons.io.FileUtils;
 
+import java.io.File;
 import java.io.IOException;
 
 public class FileOps {
@@ -10,6 +11,7 @@ public class FileOps {
         try {
             FileUtils.forceMkdir(Assets.Dir);
             FileUtils.forceMkdir(Assets.Versions);
+            Assets.Config.createNewFile();
         } catch (IOException e) {
             Logging.Log(e.getMessage(), 3);
             e.printStackTrace();

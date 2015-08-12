@@ -9,12 +9,12 @@ public class Assets {
     public static File Config = new File(Dir + "/Settings.cfg");
     public static String ConfigPath = Config.toString();
     public static File Versions = new File(Dir + "/Versions");
-    public static File Vanilla = new File(Versions + "/Vanilla.json");
+    public static File Vanilla = new File(Versions + "/Versions.json");
     public static File Forge = new File(Versions + "/Forge.json");
     public static File LiteLoader = new File(Versions + "/LiteLoader.json");
     public static File ModPacks = new File(Versions + "/ModPacks.json");
     public static File Profiles = new File(Dir + "/Profiles");
-    public static File InstalledProfiles = new File(Profiles + "/Installed.json");
+    public static File InstalledProfiles = new File(Profiles + "/Profiles.json");
 
     public static URL VanillaUrl() {
         URL vanillaVersionsJson = null;

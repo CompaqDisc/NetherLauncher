@@ -17,7 +17,7 @@ public class Logging {
                 MSG_Prefix = "[" + Sys.getTime() + " ERROR]: ";
                 break;
             default: // Other level was set
-                MSG_Prefix = Sys.getTime() + " ";
+                MSG_Prefix = "[" + Sys.getTime() + " OTHER]: ";
                 break;
         }
         System.out.println(MSG_Prefix + msg);
@@ -33,10 +33,15 @@ public class Logging {
         Log(OS_Arch + " bit OS", 0);
         Log(JVM_Arch + " bit JVM", 0);
         if (JVM.wrongJVM()) {
-            Log("Please update to a 64 bit Java Runtime, Java runs better with a 64 bit runtime on a 64 bit Sys and OS.", 2);
+            Log("Please update to a 64 bit Java Runtime, Minecraft runs faster with a 64 bit runtime on a 64 bit System and OS.", 2);
             Log("You currently have a 32 bit runtime and a 64 bit OS.", 2);
         }
         Log("JVM Version " + JVM.getJVMVer() + " from " + JVM.getJVMAuthor(), 0);
         Log("Java found at: " + JVM.getJVMPath(), 0);
+        if(Network.isInet()) {
+            Log("Internet is connected.", 0);
+        } else {
+            Log("Internet is NOT connected.", 2);
+        }
     }
 }
