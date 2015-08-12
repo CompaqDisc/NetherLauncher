@@ -55,9 +55,9 @@ public class MainWindow extends JFrame {
     public void Tabs() {
         getContentPane().add(Tabs);
 
-        JLabel SettingsLbl = new JLabel();
+        /*JLabel SettingsLbl = new JLabel();
         SettingsLbl.setText("SETTINGS");
-        SettingsTab.add(SettingsLbl);
+        SettingsTab.add(SettingsLbl);*/
 
         JLabel ProfilesLbl = new JLabel();
         ProfilesLbl.setText("PROFILES");

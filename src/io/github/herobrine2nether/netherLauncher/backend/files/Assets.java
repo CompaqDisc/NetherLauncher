@@ -7,6 +7,7 @@ import java.net.URL;
 public class Assets {
     public static File Dir = new File("./NetherLauncher");
     public static File Config = new File(Dir + "/Settings.cfg");
+    public static File RAM = new File(Dir + "/RAM.cfg");
     public static String ConfigPath = Config.toString();
     public static File Versions = new File(Dir + "/Versions");
     public static File Vanilla = new File(Versions + "/Versions.json");
