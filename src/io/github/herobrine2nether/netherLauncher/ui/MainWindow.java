@@ -4,6 +4,7 @@ import io.github.herobrine2nether.netherLauncher.Constants;
 import io.github.herobrine2nether.netherLauncher.Main;
 import io.github.herobrine2nether.netherLauncher.backend.Util.Sys;
 import io.github.herobrine2nether.netherLauncher.ui.tabs.NewsTab;
+import io.github.herobrine2nether.netherLauncher.ui.tabs.SettingsTab;
 
 import javax.swing.*;
 import java.awt.event.ComponentEvent;
@@ -13,7 +14,7 @@ import java.net.URL;
 public class MainWindow extends JFrame {
 
     NewsTab NT = new NewsTab();
-    JPanel SettingsTab = new JPanel();
+    JTabbedPane SettingsTab = new SettingsTab();
     JPanel ProfilesTab = new JPanel();
     JPanel VersionsTabs = new JPanel();
     JTabbedPane Tabs = new JTabbedPane();

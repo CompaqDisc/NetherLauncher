@@ -6,6 +6,7 @@ import javax.swing.*;
 
 public class SettingsTab extends JTabbedPane {
     public SettingsTab() {
+        JPanel JavaTab = new JavaTab();
         addTab("Java", null, JavaTab, "Tweak Java Settings and RAM");
         setTabPlacement(JTabbedPane.TOP);
     }
