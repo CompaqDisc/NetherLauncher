@@ -12,6 +12,7 @@ public class FileOps {
             FileUtils.forceMkdir(Assets.Dir);
             FileUtils.forceMkdir(Assets.Versions);
             Assets.RAM.createNewFile();
+            Assets.Account.createNewFile();
         } catch (IOException e) {
             Logging.Log(e.getMessage(), 3);
             e.printStackTrace();

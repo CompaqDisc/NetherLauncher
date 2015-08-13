@@ -7,10 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60ac2db8-d278-45a8-8023-4a612b9f387b" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Herobrine2Nether\Documents\GitHub\NetherLauncher\NetherLauncher\Versions\Versions.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/backend/files/Assets.class" afterPath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/backend/files/Assets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/backend/files/FileOps.class" afterPath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/backend/files/FileOps.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/JavaTab$1.class" afterPath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/JavaTab$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/JavaTab.class" afterPath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/JavaTab.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/ui/tabs/SettingsTab.class" afterPath="$PROJECT_DIR$/out/production/NetherLauncher/io/github/herobrine2nether/netherLauncher/ui/tabs/SettingsTab.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/AccountTab.java" afterPath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/AccountTab.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/Assets.java" afterPath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/Assets.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/FileOps.java" afterPath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/FileOps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/JavaTab.java" afterPath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/JavaTab.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NetherLauncher/RAM.cfg" afterPath="$PROJECT_DIR$/NetherLauncher/RAM.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/SettingsTab.java" afterPath="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/SettingsTab.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <manually-removed-from-ignored>
@@ -37,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/SettingsTab.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/JavaTab.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,36 +67,8 @@
       <file leaf-file-name="AccountTab.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/AccountTab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07093185">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/MainWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1182#1183#0" expanded="true" />
-                <element signature="e#1225#1226#0" expanded="true" />
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1477#1478#0" expanded="true" />
-                <element signature="e#1560#1561#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsTab.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/NewsTab.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.5201669">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/FileOps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -111,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/Assets.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -190,9 +169,9 @@
         <option value="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/Util/Logging.java" />
         <option value="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/SettingsTab.java" />
         <option value="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/MainWindow.java" />
-        <option value="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/Assets.java" />
-        <option value="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/FileOps.java" />
         <option value="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/JavaTab.java" />
+        <option value="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/FileOps.java" />
+        <option value="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/Assets.java" />
         <option value="$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/AccountTab.java" />
       </list>
     </option>
@@ -229,8 +208,9 @@
       <sortByType ProjectPane="false" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -409,7 +389,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -914,13 +893,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/Util/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2837274">
@@ -970,6 +942,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07093185">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/SettingsTab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/Util/Logging.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -978,9 +968,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45618916">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/NewsTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.3783032">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -988,44 +988,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/SettingsTab.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/FileOps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="39" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1182#1183#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1477#1478#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-          </folding>
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/Assets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/backend/files/FileOps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1033,7 +1007,7 @@
     <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/JavaTab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="18" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1042,9 +1016,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/github/herobrine2nether/netherLauncher/ui/tabs/settings/AccountTab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07093185">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.5201669">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

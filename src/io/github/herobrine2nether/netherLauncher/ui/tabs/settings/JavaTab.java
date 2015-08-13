@@ -9,12 +9,13 @@ import java.awt.event.ActionListener;
 import java.io.*;
 
 public class JavaTab extends JPanel {
-    String ramValue = "500";
-    String ramType = "M";
+    String ramValue = "1";
+    String ramType = "G";
     String[] ramTypes = new String[] {"M", "G"};
-    JTextArea ramValueBox = new JTextArea(ramValue);
+    JTextField ramValueBox = new JTextField(ramValue);
     JComboBox<String> ramTypeSelector = new JComboBox<>(ramTypes);
     public JavaTab() {
+        ramValueBox.setColumns(4);
         JLabel ramLabel = new JLabel("Set RAM for Minecraft");
         add(ramLabel);
         add(ramValueBox);
@@ -29,7 +30,7 @@ public class JavaTab extends JPanel {
             {
                 //Execute when button is pressed
                 save();
-                Logging.Log("Saved", 0);
+                String temp = readValue();
             }
         });
         add(saveBtn);
@@ -40,8 +41,11 @@ public class JavaTab extends JPanel {
             try (Writer writer = new BufferedWriter(new OutputStreamWriter(
                     new FileOutputStream(Assets.RAM.getPath()), "utf-8"))) {
                 writer.write(ramValueBox.getText() + ramTypeSelector.getSelectedItem());
+                Logging.Log("Saved", 0);
             }
         } catch (IOException e) {
+            Logging.Log("Problem Saving Settings", 2);
+            Logging.Log(e.getMessage(), 3);
             e.printStackTrace();
         }
     }
@@ -77,7 +81,7 @@ public class JavaTab extends JPanel {
                 ex.printStackTrace();
             }
         }
-        return "500";
+        return "1";
     }
 
     public String readType() {
@@ -111,6 +115,6 @@ public class JavaTab extends JPanel {
                 ex.printStackTrace();
             }
         }
-        return "M";
+        return "G";
     }
 }
