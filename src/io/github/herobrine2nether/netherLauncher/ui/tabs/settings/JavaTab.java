@@ -21,6 +21,7 @@ public class JavaTab extends JPanel {
         add(ramTypeSelector);
 
         ramValueBox.setText(readValue());
+        ramTypeSelector.setSelectedItem(readType());
 
         JButton saveBtn = new JButton("Save");
         saveBtn.addActionListener(new ActionListener() {
@@ -77,5 +78,39 @@ public class JavaTab extends JPanel {
             }
         }
         return "500";
+    }
+
+    public String readType() {
+        BufferedReader br = null;
+        try {
+            String line;
+
+            br = new BufferedReader(new FileReader(Assets.RAM.getPath()));
+
+            if ((line = br.readLine()) != null) {
+                //Logging.Log("Found RAM Settings as " + line, 0);
+                int i = 0;
+                if (line.contains("M")) {
+                    i = line.indexOf("M");
+                }
+                if (line.contains("G")) {
+                    i = line.indexOf("G");
+                }
+                String type = line.substring(i, i + 1);
+                return type;
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (br != null) {
+                    br.close();
+                }
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        }
+        return "M";
     }
 }
